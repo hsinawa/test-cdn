@@ -1,3 +1,9 @@
-console.log("this is my test cdn");
+console.log("CDN By Awanish");
 
-document.write("Hey this is my test cdn file here");
+  var x  = document.getElementsByClassName('sample-test')
+      x[0].addEventListener('click', ()=>{
+        x[0].style.backgroundColor = '#abe';
+        console.log(x)
+      } )
+   
+    
