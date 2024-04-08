@@ -1,11 +1,7 @@
-console.log("CDN By Awanish");
+console.log("CDN By Awanish with Github Style");
 
-const sampleTests = document.querySelectorAll('.sample-test');
-
-// Add click event listener to each element
-sampleTests.forEach(element => {
-  element.addEventListener('click', () => {
-    // Change the background color of the clicked element
-    element.style.backgroundColor = 'blue'; // You can change 'blue' to any color you desire
-  });
-});
+  var x  = document.getElementsByClassName('sample-test')
+  x[0].addEventListener('click', ()=>{
+    x[0].style.backgroundColor = '#abe';
+    console.log(x)
+  } )
